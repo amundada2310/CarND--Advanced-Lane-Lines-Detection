@@ -120,7 +120,7 @@ Calibrated Undistorted Image :
    2.2 Perfomed below mentioned HLS Color Space Threshold on the images:
     1. H channel  2. S channel  3. L channel
     
-   2.3 Perfomed below mentioned HLS Color Space Threshold on the images:
+   2.3 Perfomed below mentioned HSV Color Space Threshold on the images:
    1. V channel
     
    2.4 Combined the threshold results of (1. Sobel in the X direction 3. Magnitude Threshold  4. Direction Threshold) gradient threshold with the S channel (HLS) and V cahnnel (HSV) color space threshold. The combination resulted in a binary thresholded images. 
