@@ -443,13 +443,13 @@ I have implemented 2 ways for video pipeline.The basic difference is ways for de
 2. If the result of a frame - from search around poly gave `left_fit` and `right_fit` as null values. Then the frame uses the Sliding window approach for determining results.
 3. Remaining frames uses search around poly approach to find lane lines. The method uses a way for averaging the results of no. of frames ( tried with various values) to determine mean `left_fit` and mean `right_fit`.
 
-Here's a link to my video result : [Project_video_output] (https://github.com/amundada2310/CarND-Advanced-Lane-Lines-Final/blob/master/project_video_output1.mp4)
+Here's a link to my video result : [Project_video_output] (https://github.com/amundada2310/CarND--Advanced-Lane-Lines-Detection/blob/master/project_video_output1.mp4)
 
 ###### Method 2 uses just the Sliding Window method to determine lane lines.
 1. The method uses a way for averaging the results of (10) frames to determine mean `left_fit` and mean `right_fit`.
 
 
-Here's a link to my video result : [Project_video_output] (https://github.com/amundada2310/CarND-Advanced-Lane-Lines-Final/blob/master/project_video_output1.mp4)
+Here's a link to my video result : [Project_video_output] (https://github.com/amundada2310/CarND--Advanced-Lane-Lines-Detection/blob/master/project_video_output_v.mp4)
 
 
 ---
